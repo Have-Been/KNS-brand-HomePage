@@ -167,7 +167,7 @@ em { font-style: italic; }
     height: 100vh;
     min-height: 600px;
     max-height: 900px;
-    background: url('../image/Dr.DinarSkin_제품_1.jpg') center / cover no-repeat;
+    background: url('../image/Dinar_Cream.png') center / cover no-repeat;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -179,7 +179,7 @@ em { font-style: italic; }
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(40, 32, 22, 0.12);
+    background: rgba(40, 32, 22, 0.4);
 }
 .hero > * { position: relative; }
 .hero .eyebrow { color: rgba(255, 255, 255, 0.85); margin-bottom: 20px; }
@@ -232,7 +232,7 @@ em { font-style: italic; }
     min-height: 620px;
 }
 .story-img {
-    background: url('../image/Dr.DinarSkin_제품_1.jpg') center / cover no-repeat;
+    background: url('../image/Dinar_Skincare_all.jpg') center / cover no-repeat;
 }
 .story-text {
     background: var(--beige);
@@ -315,18 +315,25 @@ em { font-style: italic; }
 .banner {
     position: relative;
     height: 488px;
-    background: url('../image/Dr.DinarSkin_제품_7.jpg') center / cover no-repeat;
+    background: url('../image/Dinar_MildCleanser.png') center / cover no-repeat;
     display: flex;
     align-items: flex-end;
     padding: 0 86px 104px;
 }
+
 .banner p {
+    position: relative;
     color: #fff;
     font-size: clamp(30px, 3.4vw, 48px);
     line-height: 1.1;
     text-shadow: 0 1px 20px rgba(0, 0, 0, 0.08);
 }
-
+.banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(40, 32, 22, 0.3);
+}
 /* 에센스 */
 .essence {
     background: var(--sand);
