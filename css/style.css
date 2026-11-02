@@ -232,7 +232,7 @@ em { font-style: italic; }
     min-height: 620px;
 }
 .story-img {
-    background: url('../image/Dinar_Skincare_all.jpg') center / cover no-repeat;
+    background: url('../image/Dinar_Skincare_all.png') center / cover no-repeat;
 }
 .story-text {
     background: var(--beige);
